@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1756910903 source:c:\tset\exercice\exercice 1\basic_grading_system\main.c
+	<stdio.h>
+	<stdlib.h>
+
