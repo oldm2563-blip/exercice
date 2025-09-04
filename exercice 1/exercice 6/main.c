@@ -9,8 +9,8 @@ int main()
     printf("type a number :");
 
     scanf("%d" , &a);
-    for(b = 1 ; b <= a ; c ++ ){
-
+    for(b = 1 ; b <= a ; c ++ ){.
+3
            d = c * 2;
 
         if(d % 2 == 0){

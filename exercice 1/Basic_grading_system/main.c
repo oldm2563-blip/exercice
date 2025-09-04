@@ -1,4 +1,4 @@
-#include <stdio.h>
+    ²#include <stdio.h>
 #include <stdlib.h>
 
 int main()
@@ -47,6 +47,17 @@ int main()
    }
 
    }while(f == 0);
+     big = a;
+    if (b > big) big = b;
+    if (c > big) big = c;
+    if (d > big) big = d;
+    if (e > big) big = e;
+
+       low = a;
+    if (b < low) low = b;
+    if (c < low) low = c;
+    if (d < low) low = d;
+    if (e < low) low = e;
 
     tot = a + b + c + d + e ;
 
@@ -65,6 +76,7 @@ printf("total %d\n" , tot);
 
 printf("moyenne %d\n" , moy);
 printf("highest score is %d\n" , big);
+printf("lowest score is %d\n" , low);
 if(moy>90){
     printf("A");
 }
